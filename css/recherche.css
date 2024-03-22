@@ -1,0 +1,115 @@
+#titre h1 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+#titre p {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+
+#recherche {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#icone-location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 50px;
+    background-color: #F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+}
+#input-search{
+    height: 40px;
+    width: 200px;
+    border: 1px solid #F2F2F2;
+    text-align: center;
+    font-weight: bold;
+}
+
+#search-web{
+    display: flex;
+    background-color:  #0065FC;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    width: 110px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #0065FC;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+#search-mob{
+    display: none;
+}
+
+
+@media all and (max-width: 480px){
+    #titre h1 {
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+    
+    #titre p {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    
+    
+    #recherche {
+        display: flex;
+        align-items: center;
+    }
+    
+    #icone-location {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 50px;
+        background-color: #F2F2F2;
+        border-radius: 10px 0px 0px 10px;
+    }
+    #input-search{
+        height: 40px;
+        width: 200px;
+        border: 1px solid #F2F2F2;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    
+    #search-web{
+        display: none;
+    }
+    #search-mob{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        background-color: #0065FC;
+        color: white;
+        height: 40px;
+        width: 40px;
+       font-size: 15px;
+       font-weight: bold;
+       border: 1px solid #0065FC;
+       border-radius: 10px 10px 10px 10px;
+    }
+}

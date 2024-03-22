@@ -1,0 +1,102 @@
+.hotels-populars {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hebergements {
+    width: 75%;
+}
+
+#hebergements-marseille {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 25px;
+    width: 100%;
+}
+
+#hebergements-marseille h2 {
+    padding: 25px 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#hebergement {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hebergements-marseille-cards {
+    width: 30%;
+    background-color: white;
+    margin: 10px 10px 15px 10px;
+    border-radius: 20px;
+}
+
+#hebergement img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    padding: 5px;
+}
+
+.hebergement-card-body {
+    padding: 0 15px 15px 15px;
+}
+
+#afficher {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.card-rating{
+    color: #0065FC;
+}
+
+.fa-xs.fa-solid.fa-star.neutral-star{
+    color: #F2F2F2;
+}
+
+.hebergement-card-title{
+    padding: 5px;
+}
+
+.hebergement-card-price{
+    padding: 5px;
+}
+
+@media only all and (max-width: 1060px){
+    #hebergements-marseille {
+        width: 100%;
+     }
+}
+
+@media only all and (min-width: 550px) and (max-width: 700px){
+    .hebergements-marseille-cards {
+        width: 45%;
+    }
+}
+
+@media only all and (max-width: 550px){
+    #hebergements-marseille {
+        width: 100%;
+        margin-bottom: 20px;
+        background-color: white;
+        padding: 0;
+    }
+    
+    .hebergements-marseille-cards {
+        width: 100%;
+ filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+}
